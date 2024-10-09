@@ -1,5 +1,79 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-minio-sha256-simd (1.0.1-1) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
+  * New upstream release
+  * d/control:
+    - Update Standards-Version to 4.6.2 (no changes needed)
+    - Add Multi-Arch: foreign
+  * Update d/copyright
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Mathias Gibbens <gibmat@debian.org>  Sun, 18 Jun 2023 16:10:14 +0000
+
+golang-github-minio-sha256-simd (1.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Aloïs Micard]
+  * update debian/gitlab-ci.yml (using pkg-go-tools/ci-config)
+
+  [ Debian Janitor]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse
+
+  [ Mathias Gibbens ]
+  * New upstream release
+  * d/control:
+    - Update Section to golang
+    - Bump Standards-Version (no changes needed)
+    - Update Maintainer email address to current team address
+    - Update Build-Depends and Depends
+    - Add Rules-Requires-Root: no
+  * Update d/copyright
+  * Fix d/watch
+
+ -- Mathias Gibbens <gibmat@debian.org>  Fri, 11 Nov 2022 23:51:49 +0000
+
+golang-github-minio-sha256-simd (0.1.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Added myself to Uploaders (Closes: #940388).
+  * Introduced "watch" file to track upstream releases.
+  * Standards-Version: 4.4.1.
+  * DH to version 12.
+
+ -- Dmitry Smirnov <onlyjob@debian.org>  Tue, 17 Dec 2019 11:41:28 +1100
+
+golang-github-minio-sha256-simd (0.0~git20171213.ad98a36-3) unstable; urgency=medium
+
+  * Team upload.
+  * Vcs-* urls: pkg-go-team -> go-team.
+
+ -- Alexandre Viau <aviau@debian.org>  Mon, 05 Feb 2018 23:34:25 -0500
+
+golang-github-minio-sha256-simd (0.0~git20171213.ad98a36-2) unstable; urgency=medium
+
+  * point Vcs-* urls to salsa.d.o subproject
+
+ -- Alexandre Viau <aviau@debian.org>  Thu, 25 Jan 2018 16:17:44 -0500
+
+golang-github-minio-sha256-simd (0.0~git20171213.ad98a36-1) unstable; urgency=medium
+
+  * Move to salsa.debian.org.
+  * Testsuite: autopkgtest-pkg-go.
+  * Priority extra -> optional.
+  * Update copyright year.
+  * New upstream snapshot.
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 30 Dec 2017 02:29:43 -0500
+
+golang-github-minio-sha256-simd (0.0~git20161219.0.e82e73b-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Alexandre Viau <aviau@debian.org>  Tue, 20 Dec 2016 21:13:40 -0500
+
+golang-github-minio-sha256-simd (0.0~git20161015.0.f78567f-1) unstable; urgency=medium
+
+  * Initial release (Closes: #840886)
+
+ -- Alexandre Viau <aviau@debian.org>  Sat, 15 Oct 2016 19:08:47 -0400
